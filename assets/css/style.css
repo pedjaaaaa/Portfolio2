@@ -21,6 +21,7 @@ html, body {
     border-bottom: solid #cccccc 2px;
     top: 0;
 }
+
 .img-responsive {
     width: auto;
     height: auto;
@@ -100,8 +101,5 @@ html, body {
         width: 93%;
     } 
 
-    @media only screen and (min-width: 768px) {
-        .image {
-            
-        }
-    }
+
+}
