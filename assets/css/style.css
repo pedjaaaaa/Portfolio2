@@ -6,7 +6,7 @@ html, body {
     font-size: 25px;
     width: 200px;
     padding-top: 26px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     text-align: center;
     background: #4aaaa5;
     color: white;
@@ -17,16 +17,47 @@ html, body {
     margin-bottom: 30px;
     text-align: center;
     background: #ffffff;
-    height:88px;
+    height:90px;
     border-bottom: solid #cccccc 2px;
     top: 0;
 }
+.img-responsive {
+    width: auto;
+    height: auto;
+}
+
 #navigation {
-      text-decoration: none;
       color: #4aaaa5;
       background: white;
   }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-top: -10px;
+    margin-bottom: -14px;
+    opacity: .5;
+  }
+  img {
+      width: 100%;
+      height 100%;
+  }
 
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    font-size: medium;
+    margin-top: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
  .footer {
     position: fixed;
     padding: 30px;
@@ -41,5 +72,34 @@ html, body {
     }
 .footer, .push {
     height: 0;
+}
+    .image { 
+        position: relative;
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        justify-content: center;
+        align-items: flex-end;
+        display: flex;
+        padding-bottom: 50px;
+        padding-left: 30px;
+    }
+    
+    .overlay {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        background: #4aaaa5;
+        width: 150px;
+        color: #ffffff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-top: -5px;
+    } 
 
-  
+    @media only screen and (min-width: 768px) {
+        .image {
+            
+        }
+    }
