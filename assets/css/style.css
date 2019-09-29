@@ -36,7 +36,7 @@ html, body {
     border: 1px solid #ccc;
     resize: vertical;
     margin-top: -10px;
-    margin-bottom: -14px;
+    margin-bottom: 10px;
     opacity: .5;
   }
   img {
@@ -50,6 +50,7 @@ html, body {
     padding: 12px 20px;
     font-size: medium;
     margin-top: 18px;
+    margin-bottom: 30px;
     border: none;
     cursor: pointer;
   }
@@ -96,6 +97,7 @@ html, body {
         padding-bottom: 10px;
         text-align: center;
         margin-top: -5px;
+        width: 93%;
     } 
 
     @media only screen and (min-width: 768px) {
