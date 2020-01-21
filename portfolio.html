@@ -1,75 +1,83 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+
+<html>
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <title>Introspect by TEMPLATED</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
-<body background="assets/images/memphis-mini.png">
+<body>
 
-  <header id="topheader">
-    <div class="header container wrapper">
-      <div class="row">
-        <a class="col col-md-3 col-12" id="header"><strong>Pedja Vasic</strong></a>
-        <div class="col header-content"></div>
-        <div class="header-right col-sm d-inline container-fluid " id="navigation">
-          <a id="content" class="border-right-1 d-inline" href="index.html">About</a>
-          <a id="content" class="border-right-1 d-inline" href="portfolio.html">Portfolio</a>
-          <a id="content" href="contact.html">Contact</a>
-        </div>
-      </div>
-      <div class="mt-sm-1 mb-sm-5">
-  </header>
-
-
-  <div id="mainsection" class="container border bg-white col-lg-8">
-    <div class="mb-3 mt-3 border-bottom" id="about">
-      <h2 class="text-secondary">Portfolio</h2>
+</html> -->
+<header id="header">
+    <div class="inner">
+        <a href="index.html" class="logo">pedja vasic</a>
+        <nav id="nav">
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
-    <br>
+</header>
+<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-    <div class="container wrapper">
-      <div class="row">
-        <div class="col image col-6s" id="portfolio1">
-          <img class="img-responsive" src="assets/images/68074806-cb3b7200-fd5c-11e9-8251-d749d28144f4.png"
-            alt="Portfolio1" style="width:400px;height:400px;">
-            <a href="https://github.com/omerkatan1/project-1" class="overlay" id="title1">Route Mapper</a>
+<section id="one">
+    <div class="inner">
+        <header>
+            <h2>Portfolio</h2>
+        </header>
+        <div class="box alt">
+            <div class="row 50% uniform">
+                <div class="4u" id="passgen"><span class="image fit"><img src="images/Password Generator.png" 
+                            alt="Password Generator" /></span></div>
+                <div class="4u" id="weatherdash"><span class="image fit"><img src="images/Weather Dashboard.png" 
+                            alt="Weather Dashboard" /></span></div>
+                <div class="4u$" id="routemap"><span class="image fit"><img src="images/Route Mapper.png" 
+                            alt="Route Mapper" /></span></div>
+                <div class="4u" id="foodquiz"><span class="image fit"><img src="images/Food Quiz.png" 
+                            alt="Food Quiz" /></span></div>
+                <div class="4u" id="workschedule"><span class="image fit"><img src="images/Work Day Scheduler.png" 
+                            alt="Work Day Scheduler" /></span></div>
+                <div class="4u$" id="teamup"><span class="image fit"><img src="images/Team Up.png" 
+                            alt="Team Up" /></span></div>
+            </div>
         </div>
-        <div class="col image col-6s" id="portfolio2">
-          <img class="img-responsive" src="assets/images/Screen Shot 2019-10-02--01 (1).png" alt="Portfolio2"
-            style="width:400px;height:400px;">
-          <a href="https://github.com/pedjaaaaa/PasswordGenerator" class="overlay" id="title2">Password Generator</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col image col-6s" id="portfolio3">
-          <img class="img-responsive" src="assets/images/Screen Shot 2019-10-24 at 5.34.29 PM.png" alt="Portfolio3"
-            style="width:400px;height:400px;">
-          <a href="https://github.com/pedjaaaaa/WeatherApp" class="overlay" id="title3">Weather App</a>
-        </div>
-        <div class="col image col-6s" id="portfolio4">
-          <img class="img-responsive" src="assets/images/Portfolio4.jpg" alt="Portfolio4">
-          <div class="overlay" id="title4">Rutgers Info Widget</div>
-        </div>
-      </div>
-      <div class="col image" id="portfolio5">
-        <img class="img-responsive" src="assets/images/Portfolio5.jpg" alt="Portfolio5">
-        <div class="overlay" id="title5">Rock Paper Scissors</div>
-      </div>
     </div>
-  </div>
-
-</body>
+</section>
 
 <div class="push"></div>
-
 <footer class="footer">
-  <div id="copyright">Copyright ©</div>
+    <div id="copyright">Copyright ©</div>
 </footer>
+</section>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#teamup").click(function () {
+            window.location.href = "https://sapsteamnewapp.herokuapp.com";
+        });
+        $("#passgen").click(function () {
+            window.location.href = "https://pedjaaaaa.github.io/PasswordGenerator/";
+        });
+        $("#weatherdash").click(function () {
+            window.location.href = "https://pedjaaaaa.github.io/WeatherApp/";
+        });
+        $("#routemap").click(function () {
+            window.location.href = "https://omerkatan1.github.io/project-1/";
+        });
+        $("#foodquiz").click(function () {
+            window.location.href = "https://pedjaaaaa.github.io/QuizApplication/";
+        });
+        $("#workschedule").click(function () {
+            window.location.href = "https://pedjaaaaa.github.io/CalendarApp/";
+        });
+
+    });
+
+</script>
 
 </html>

@@ -1,46 +1,57 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+
+<html>
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css" </head> <body background="assets/images/memphis-mini.png">
+    <title>Introspect by TEMPLATED</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-  <header id="topheader">
-    <div class="header container wrapper">
-      <div class="row">
-        <a class="col col-md-3 col-12" id="header"><strong>Pedja Vasic</strong></a>
-        <div class="col header-content"></div>
-        <div class="header-right col-sm d-inline container-fluid " id="navigation">
-          <a id="content" class="border-right-1 d-inline" href="index.html">About</a>
-          <a id="content" class="border-right-1 d-inline" href="portfolio.html">Portfolio</a>
-          <a id="content" href="contact.html">Contact</a>
+<body class="contact">
+    <!-- Header -->
+    <header id="header">
+        <div class="inner">
+            <a href="index.html" class="logo">pedja vasic</a>
+            <nav id="nav">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-      </div>
-      <div class="mt-sm-1 mb-sm-5">
-  </header>
+    </header>
+    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-  <div id="mainsection" class="col-lg-8 border bg-white vertical-center">
-    <div class="mb-3 mt-3 border-bottom">
-      <h2 class="text-secondary">Contact</h2>
-    </div>
-    <br>
-    <form action="/action_page.php">
-      <p class="contact-form">Name</p>
-      <input type="text" id="fname" name="firstname" placeholder="John Smith">
-      <p class="contact-form">Email</p>
-      <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
-      <p class="contact-form">Message</p>
-      <textarea id="subject" name="subject" style="height:200px"></textarea>
-      <input type="submit" value="Submit">
-    </form>
-  </div>
-  <div class="push"></div>
-  <footer class="footer">
-    <div id="copyright">Copyright ©</div>
-  </footer>
+    <section id="footer">
+        <div class="inner">
+            <header>
+                <h2>Get in Touch</h2>
+            </header>
+            <form method="post" action="#">
+                <div class="field half first">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div class="field half">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6"></textarea>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" class="alt" /></li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="push"></div>
+        <footer class="footer">
+            <div id="copyright">Copyright ©</div>
+        </footer>
+    </section>
+</body>
 
 </html>
